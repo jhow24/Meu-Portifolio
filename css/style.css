@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.img-perfil{
+    height: 200px;
+    width: auto;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.corprimaria{
+    background-color: rgb(0, 173, 173);
+}
+
+.corsecundaria{
+    background-color: rgb(44, 44, 44);
+}
+
+p{
+    font-family: sans-serif;
+    font-weight: 200;
+    color:black !important;
+}
+
+.icones{
+    padding-left: 5px;
+    cursor:pointer;
+}
+
+.titulosbranco{
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.titulosverde{
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(0, 173, 173);
+}
+
+.text-white{
+    color:white;
+}
+
+.jumbotron{
+    margin-bottom: 0px;
+}
+
+.text-footer{
+    margin:0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
